@@ -1,11 +1,11 @@
-import java.util.scanner;
+import java.util.Scanner;
 public class Main2
 {
      public static void main( String[] args) {
-        scanner sc = new scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.println("enter integer 1: ");
-        int a = sc.nextint();
-        int b = sc.nextint();
+        int a = sc.nextInt();
+        int b = sc.nextInt();
         System.out.println("sum = " + a+b);
 
         
