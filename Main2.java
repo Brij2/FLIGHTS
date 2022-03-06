@@ -5,8 +5,9 @@ public class Main2
         Scanner sc = new Scanner(System.in);
         System.out.println("enter integer 1: ");
         int a = sc.nextInt();
+        System.out.println("enter integer 2");
         int b = sc.nextInt();
-        System.out.println("sum = " + a+b);
+        System.out.println("sum = " + (a+b));
 
         
     }
