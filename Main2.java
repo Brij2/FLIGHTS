@@ -1,20 +1,54 @@
-import java.util.Scanner;
-public class Main2
-{
-     public static void main( String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("enter no. to calculate factorial");
-        int a= sc.nextInt();
-        int fact=1;
-        for (int i = 2; i <=a; i++) {
-                fact = fact*i;
-            }
-        System.out.println(fact);
-    }
-}
+
+  
+
+class Main2{  
+    //creating a default constructor  
+    Main2(){System.out.println("Bike is created");}  
+    //main method  
+    public static void main(String args[]){  
+    //calling a default constructor  
+    Main2 b=new Main2();  
+    }  
+    }  
 
 
 
+
+
+
+
+
+
+// //import java.util.Scanner;
+// import java.io.*;
+  
+// // Class 1
+// class main {
+//     // data members of the class.
+//     String name;
+//     int id;
+  
+//     // Constructor would initialize data members
+//     // With the values of passed arguments while
+//     // Object of that class created
+//     main(String name, int id)
+//     {
+//         this.name = name;
+//         this.id = id;
+//     }
+// }
+  
+// // Class 2
+// class Main2 {
+//     // main driver method
+//     public static void main(String[] args)
+//     {
+//         // This would invoke the parameterized constructor.
+//         main user = new main("adam", 1);
+//         System.out.println("GeekName :" + user.name
+//                            + " and GeekId :" + user.id);
+//     }
+// }
 
 
  // if(myNum[i]== 10){
