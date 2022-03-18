@@ -1,14 +1,24 @@
-public class Main2{    
-    public static void main(String args[]){    
-    String s1="java";//creating string by Java string literal    
-    char ch[]={'s','t','r','i','n','g','s'};    
-    String s2=new String(ch);//converting char array to string    
-    String s3=new String("example");//creating Java string by new keyword    
-    System.out.println(s1);    
-    System.out.println(s2);    
-    System.out.println(s3);    
+
+// public class Main2{    
+//     public static void main(String args[]){    
+//     StringBuffer s1="java";//creating StringBuffer by Java StringBuffer literal    
+//     char ch[]={'s','t','r','i','n','g','s'};    
+//     StringBuffer s2=new StringBuffer(ch);//converting char array to StringBuffer    
+//     StringBuffer s3=new StringBuffer("example");//creating Java StringBuffer by new keyword    
+//     System.out.println(s1);    
+//     System.out.println(s2);    
+//     System.out.println(s3);  
+//     // count length 
+//     System.out.println(s1.length());
+//     // concatenate StringBuffers
+//     System.out.println(s1 + s2);
+//     // gives the character at perticular index
+//     System.out.println(s2.charAt(3));  
+//     // compare two StringBuffers
+//     System.out.println(s3.compareTo(s1));
+
     
-    }}    
+//     }}    
   
 
 
